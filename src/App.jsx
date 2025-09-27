@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx";
 import Player from "./components/Player.jsx";
 function App() {
+  console.log("Hello!");
   return (
     <>
       <Header />

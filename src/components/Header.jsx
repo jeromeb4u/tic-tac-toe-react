@@ -1,11 +1,12 @@
-export default function Header() {
-    return (
-        <>
-        <header>
+import gameLogo from "../../public/game-logo.png";
 
-            <img src="public\game-logo.png" alt="Hand drawn tic-tac-toe image" />
-            <h1>React Tic-Tac-Toe</h1>
-        </header>
-        </>
-    )
+export default function Header() {
+  return (
+    <>
+      <header>
+        <img src={gameLogo} alt="Hand drawn tic-tac-toe image" />
+        <h1>React Tic-Tac-Toe</h1>
+      </header>
+    </>
+  );
 }
